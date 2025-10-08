@@ -7,3 +7,4 @@ vendor
 .htpasswd
 upload/data
 upload/*.jpg
+upload/*.png
