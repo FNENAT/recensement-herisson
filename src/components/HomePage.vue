@@ -44,7 +44,9 @@
   <div class="has-text-right">
     <router-link :to="{ name: 'observation' }" class="button is-success is-large">Commencer &#8250;</router-link>
   </div>
-  <h2 class="is-size-6 has-text-weight-bold mt-4">Données personnelles</h2>
-  <div class="has-text-justified is-size-7 mt-1">Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé par FNE 25. Elles sont traitées dans le cadre de l'étude de FNE 25 sur le hérisson d’Europe (Erinaceus europaeus) et conservées afin de vous informer des résultats de cette étude, pendant une période de 5 ans. Les données personnelles ne sont pas communiquées à des tiers sauf si vous cochez la case « partenaire InVivo », auquel cas votre contribution sera partagée avec ce partenaire.</div>
-  <div class="has-text-justified is-size-7 mt-1">Conformément à la Loi Informatique et Libertés, vous disposez d'un droit d'accès, modification et suppression de vos données personnelles. Pour exercer ce droit, contacter FNE 25 par voie postale au 7 Rue Voirin 25000 BESANCON ou <a href="javascript:window.location.href=atob('bWFpbHRvOmhlcmlzc29uQGZuZTI1LmZy')">par e-mail</a>.</div>
+  <h2 class="is-size-6 has-text-weight-bold mt-4">Qu'est-ce que l'Opération Hérisson ?</h2>
+  <div class="has-text-justified is-size-7 mt-1">
+    L'opération Hérisson est une opération de sciences participatives coordonnée par France Nature Environnement partout sur le territoire français. Les données que vous renseignez sur ce site seront traitées conformément à notre <a href="https://fne.asso.fr/politique-de-confidentialite">politique de confidentialité</a>. Pour toute question relative à l'opération ou à l'utilisation de vos données, contactez <a href="mailto:operation.herisson@fne.asso.fr">operation.herisson@fne.asso.fr</a>.
+  </div>
+  <div class="has-text-right is-size-7 mt-1"><a href="https://fne.asso.fr/mentions-legales">Mentions légales</a></div>
 </template>
