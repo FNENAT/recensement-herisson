@@ -7,12 +7,15 @@
   <template v-else-if="step === 2">
     <div class="is-flex" style="align-items: center">
       <img src="/icons/checked.svg" alt="OK" style="width: 40px" />
-      <h2 class="ml-3 title is-4 sohoma">Félicitations, votre contribution vient s'ajouter aux {{nbContrib}} autres observations que nous cumulons déjà cette année !</h2>
+      <h2 class="ml-3 title is-4 sohoma">Félicitations, votre contribution vient s'ajouter aux autres observations que nous cumulons déjà cette année !</h2>
     </div>
-    <p>Nous vous remercions d’avoir participé à notre recensement participatif :)</p>
-    <p>Retrouvez les actions de FNE 25 auxquelles vous pouvez participer sur <a href="https://www.fne25.fr">www.fne25.fr</a>, ainsi que les actions organisées par le réseau FNE régional sur <a href="https://www.fne-bfc.fr">www.fne-bfc.fr</a> !</p>
-    <p>Vous pouvez également nous suivre sur les réseaux sociaux : <a href="https://www.facebook.com/fne25000/">Facebook</a>, <a href="https://twitter.com/fne_doubs">Twitter</a>, <a href="https://mastodon.social/@fne2590">Mastodon</a> </p>
-    <p>Au plaisir,<br/>L'équipe FNE 25</p>
+    <p>Pour aller plus loin :</p>
+    <p>🦔 <a href="https://fne.asso.fr/recevez-nos-conseils-100-piquants-sur-le-herisson%3Fmtm_campaign%3Dherisson_leads25%26mtm_kwd%3Daccueil-web">Inscrivez-vous</a> pour recevoir nos 6 conseils 100% piquants sur le hérisson ! </p>
+    <p>📍 Prenez contact avec <a href="https://fneasso.gogocarto.fr/map#/carte/@46.32,-3.21,5z?cat=all">l'association locale FNE</a>  la plus proche de chez pour découvrir les actions mise en place pour la protection du hérisson.</p>
+    
+    <p>📄 Découvrez toutes <a href="https://fne.asso.fr/publications?f%5B0%5D=classification_cdr%3A644&page=0">nos publications</a> sur le hérisson.</p>
+    <p>👉 Vous pouvez également nous suivre sur les réseaux sociaux : <a href="https://www.facebook.com/FranceNatureEnvironnement">Facebook</a>, <a href="https://bsky.app/profile/fne.asso.fr">Bluesky</a>, <a href="https://www.instagram.com/fne.asso/">Instagram</a></p>
+    <p>L’équipe de l’Opération hérisson<br/><a href="mailto:operation.herisson@fne.asso.fr">operation.herisson@fne.asso.fr</a></p>
     <div class="has-text-centered">
       <a href="/" class="button">Faire une nouvelle observation</a>
     </div>

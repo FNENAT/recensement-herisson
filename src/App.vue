@@ -1,15 +1,19 @@
 <template>
   <div class="container">
     <header>
-      <div class="columns">
-        <div class="column">
-          <router-link :to="{ name: 'home' }" class="is-flex" style="align-items: center; justify-content: center; cursor: pointer">
-            <img alt="France Nature Environnement" src="/logo-fne.png" style="max-width:333px; max-height: 100px" />
+      <div class="columns is-mobile is-multiline" style="margin-top:10px;margin-bottom:10px;">
+        <div class="column is-narrow-tablet is-full-mobile" style="display:flex;justify-content:center">
+          <router-link :to="{ name: 'home' }" class="is-flex" style="align-items: center; justify-content: center; cursor: pointer;width:fit-content">
+            <img alt="France Nature Environnement" src="https://fne.asso.fr/system/files/images/logo.svg" style="max-width:333px; max-height: 100px" />
           </router-link>
         </div>
-        <div class="column" style="display:flex;align-items:center;justify-content:center">
-          <h1 class="title is-3 saira ml-5" style="color: #c90c0f">Opération de recensement du hérisson</h1>
+        <div class="column is-full-mobile" style="display:flex;align-items:center;justify-content:center;">
+          <h1 class="title is-3 saira" style="color: #c90c0f; text-align: center;">Opération de recensement du hérisson</h1>
         </div>
+        <div class="column is-narrow-tablet is-full-mobile" style="display:flex;justify-content:center">
+          <a href="https://soutenir.fne.asso.fr/voix-nature/" target="_blank" class="rgive-button">Nous soutenir</a>
+        </div>
+        
       </div>
     </header>
     <section class="section">
